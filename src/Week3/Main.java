@@ -45,10 +45,13 @@ public class Main {
 		 */
 		while ( counter <= userVar ) {
 			result = result * counter;
-			// counter++ is a post-increment operation equivalent to counter = counter + 1.
 			counter++;
-
-			// ++counter is a pre-increment operation equivalent to counter = 1 + counter;
+			/*
+			 * counter++ is a post-increment operation equivalent to counter = counter + 1.
+			 * ++counter is a pre-increment operation equivalent to counter = 1 + counter.
+			 * counter-- is a post-decrement operation equivalent to counter = counter - 1.
+			 * --counter is a pre-decrement operation equivalent to counter = 1 - counter.
+			 */
 		}
 
 		// Print out the result.
@@ -104,4 +107,18 @@ public class Main {
 
 		System.out.println( "The factorial of " + userVar + " is " + result );
 	}
+
+	/*
+	 * Exercise 3
+	 * Write a program that calculates the triangle number of a given number by the user
+	 * and calculates it 3 times.
+	 * Each time, you must use a different loop.
+	 *
+	 * The triangle number of any given number is the sum of all numbers
+	 * from 1 to that number.
+	 *
+	 * Example: Triangle of 4 = 1 + 2 + 3 + 4 = 10
+	 *
+	 * The user number range is from 1 to 100
+	 */
 }
