@@ -30,8 +30,8 @@ public class Main {
     	int result = 1;
 
 		/*
-    	 * Go from 1 to the user number
-    	 * Update result each time.
+		 * Go from 1 to the user number
+		 * Update result each time.
     	 */
 		System.out.print( "Please enter a variable to get the factorial of: " );
 		userVar = input.nextInt();
