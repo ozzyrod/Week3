@@ -45,6 +45,7 @@ public class Main {
 		 */
 		while ( counter <= userVar ) {
 			result = result * counter;
+			// counter++ is a post-increment operation equivalent to counter = counter + 1.
 			counter++;
 		}
 
@@ -64,8 +65,7 @@ public class Main {
 		 * for ( 1 & 3; 2; 4 )
 		 */
 		for ( int c = 1; c <= userVar; c++ ) {
-			r = r * c;
-			r *= c; // Same as the above.
+			r *= c; // Same as r = r * c.
 		}
 
 		// Print out the result.
