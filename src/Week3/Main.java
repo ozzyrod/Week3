@@ -47,6 +47,8 @@ public class Main {
 			result = result * counter;
 			// counter++ is a post-increment operation equivalent to counter = counter + 1.
 			counter++;
+
+			// ++counter is a pre-increment operation equivalent to counter = 1 + counter;
 		}
 
 		// Print out the result.
@@ -95,6 +97,9 @@ public class Main {
 			result = result * counter;
 			// counter++ is a post-increment operation equivalent to counter = counter + 1.
 			counter++;
+			// The above can also be written as result = result + counter++
+			// Can also be written as result *= counter++
+
 		} while ( counter <= userVar );
 
 		System.out.println( "The factorial of " + userVar + " is " + result );
