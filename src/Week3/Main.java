@@ -66,6 +66,14 @@ public class Main {
 		 */
 		for ( int c = 1; c <= userVar; c++ ) {
 			r *= c; // Same as r = r * c.
+
+			/*
+			 * c is declared and assigned inside of the for loop. it will not be able to be
+			 * used outside of the for loop.
+			 *
+			 * another way to write the for loop would be
+			 * for ( c = 1; c <= userVar; c++ ) and declare the variable outside of the loop.
+			 */
 		}
 
 		// Print out the result.
