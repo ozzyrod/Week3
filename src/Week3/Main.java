@@ -12,27 +12,27 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main( String[] args ) {
+	public static void main( String[] args ) {
 
-    	/*
-    	 * Write a program that calculates the factorial of a number
-    	 * between 1 and 8 inclusive as entered by the user
-    	 */
+		/*
+		 * Write a program that calculates the factorial of a number
+		 * between 1 and 8 inclusive as entered by the user
+		 */
 
-    	// Instantiate the Scanner
-    	Scanner input = new Scanner( System.in );
+		// Instantiate the Scanner
+		Scanner input = new Scanner( System.in );
 
-    	/*
-    	 * Declare our variables
-    	 */
-    	int userVar;
-    	int counter = 1;
-    	int result = 1;
+		/*
+		 * Declare our variables
+		 */
+		int userVar;
+		int counter = 1;
+		int result = 1;
 
 		/*
 		 * Go from 1 to the user number
 		 * Update result each time.
-    	 */
+		 */
 		System.out.print( "Please enter a variable to get the factorial of: " );
 		userVar = input.nextInt();
 
@@ -50,5 +50,5 @@ public class Main {
 
 		// Print out the result.
 		System.out.println( "The factorial of " + userVar + " is " + result );
-    }
+	}
 }
