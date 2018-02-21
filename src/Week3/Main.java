@@ -78,5 +78,25 @@ public class Main {
 
 		// Print out the result.
 		System.out.println( "The factorial of " + userVar + " is " + r );
+
+		/*
+		 * 3rd type of loop is like the while loop.
+		 *
+		 * Do loop; while the conditional is true, the code inside of the do loop
+		 * will be executed.
+		 *
+		 * In a do loop, the code inside of it will execute once and then the check is made which
+		 * is the only difference between a "do" loop and a "while" loop.
+		 */
+		result  = 1;
+		counter = 1;
+
+		do {
+			result = result * counter;
+			// counter++ is a post-increment operation equivalent to counter = counter + 1.
+			counter++;
+		} while ( counter <= userVar );
+
+		System.out.println( "The factorial of " + userVar + " is " + result );
 	}
 }
