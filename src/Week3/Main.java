@@ -45,7 +45,7 @@ public class Main {
 		 */
 		while ( counter <= userVar ) {
 			result = result * counter;
-			++counter;
+			counter++;
 		}
 
 		// Print out the result.
@@ -63,8 +63,9 @@ public class Main {
 		 *
 		 * for ( 1 & 3; 2; 4 )
 		 */
-		for ( int c = 1; c <= userVar; ++c ) {
+		for ( int c = 1; c <= userVar; c++ ) {
 			r = r * c;
+			r *= c; // Same as the above.
 		}
 
 		// Print out the result.
